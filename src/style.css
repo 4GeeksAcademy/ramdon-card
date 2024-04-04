@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.cards {
+  background-color: white;
+  width: 30vw;
+  height: 40vw;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 2vw;
+}
+.palo {
+  height: 20%;
+}
+.numeros {
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+.numeros p {
+  text-align: center;
+  font-size: 16vw;
+}
+#palo {
+  font-size: 4vw;
+  padding: 1vw;
+}
+.paloArriba {
+  text-align: start;
+}
+.paloAbajo {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+.♦,
+.♥ {
+  color: red;
+}
+.♠,
+.♣ {
+  color: black;
+}
